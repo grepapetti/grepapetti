@@ -14,6 +14,12 @@ An LLM that answers multiple-choice questions by retrieving evidence, searching 
 
 `Qwen2.5` · `FAISS` · `Transformers` · `Whisper` · `spaCy`
 
+#### [Reproducing a CVPR Paper: Continual Self-Supervised Learning](https://github.com/grepapetti/continual-self-supervised-learning-pfr)
+
+Revived a four-year-old research codebase and reproduced *Projected Functional Regularization* (Gomez-Villa et al., CVPRW 2022) end to end: patched the breaking changes that accumulated since 2022, trained four continual-learning variants on CIFAR-100 split into four tasks, and measured average accuracy, forgetting and forward transfer against the paper. An anomaly in the feature-distillation baseline led to an ablation of its regularization strength.
+
+`PyTorch` · `PyTorch Lightning` · `Barlow Twins` · `Weights & Biases` · `reproducibility`
+
 #### [Milan Services Data Cleaning](https://github.com/grepapetti/data-cleaning-and-preparation-milan-services)
 
 End-to-end data quality work on a municipal dataset: profiling for uniqueness, constancy and correlation, KNN imputation for missing values, outlier detection and removal, producing a cleaned dataset ready for analysis.
@@ -32,5 +38,5 @@ An ETL pipeline that mines dataset-papers from DBLP: web scraping, NLP validatio
 
 - **Data analysis** — pandas · NumPy · SciPy · scikit-learn · Jupyter · Matplotlib
 - **Databases & big data** — SQL · MongoDB · Neo4j · Elasticsearch · Cassandra · Redis · Spark · Hadoop
-- **NLP & LLM** — Transformers · PyTorch · FAISS · spaCy · RAG pipelines · Whisper
+- **NLP & LLM** — Transformers · PyTorch · PyTorch Lightning · FAISS · spaCy · RAG pipelines · Whisper
 - **Engineering** — Python · Git · LaTeX · C/C++ · JavaScript
